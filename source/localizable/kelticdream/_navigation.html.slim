@@ -1,0 +1,9 @@
+header.navigation role="banner" id=(anchor)
+  .navigation-wrapper
+    nav role="navigation"
+      ul#js-navigation-menu.navigation-menu.show
+        li.nav-link: a class=("current" if anchor == :ateliers)  href="#ateliers" = I18n.t 'navigation.workshops'
+        li.nav-link: a class=("current" if anchor == :presta)  href="#prestations" = I18n.t 'navigation.show'
+        li.nav-link: a class=("current" if anchor == :agenda)  href="#agenda" = I18n.t 'navigation.agenda'
+        li.nav-link: a class=("current" if anchor == :galerie) href="#galerie" = I18n.t 'navigation.gallery'
+        li.nav-link: a class=("current" if anchor == :contact) href="#contact" = I18n.t 'navigation.contact'

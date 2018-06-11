@@ -1,0 +1,13 @@
+site:
+  author: François VANTOMME
+  description: Venez découvrir et redécouvrir les danses irlandaises, bretonnes, traditionnelles et de bal folk !
+  email: asso@kelticdream.fr
+  i18n: fr
+  language: fr-FR
+  title: Keltic Dream
+  url: https://kelticdream.fr
+  # url: https://akarzim.github.io/kelticdream
+
+social:
+  facebook: https://www.facebook.com/KelticDream/
+  twitter: https://twitter.com/kelticdream

@@ -1,0 +1,85 @@
+#gallery
+  position: relative
+
+.gallery-background
+  $base-border-radius: 3px !default
+  $action-color: #187e27
+  $action-bottom: #d38a14
+  $action-top: #ffa502
+  $large-screen: 53.75em !default
+  $gallery-text-color: white
+  $gallery-background-top: #ffa502
+  $gallery-background-bottom: #187e27
+  $gradient-angle: 10deg
+
+  background-image: linear-gradient($gradient-angle, $gallery-background-bottom, $gallery-background-top)
+  background-color: $gallery-background-top
+  background-repeat: no-repeat
+  background-position: top left
+  background-attachment: scroll
+  background-size: cover
+  width: 100%
+
+.cards
+  display: flex
+  flex-flow: row-reverse wrap-reverse
+  justify-content: space-between
+  margin: auto -1em
+
+.card
+  $card-border-color: $base-border-color
+  $card-border: 1px solid $card-border-color
+  $card-background: lighten($card-border-color, 10%)
+  $card-header-background: $card-background
+  $card-hover-background: lighten($card-background, 5%)
+  $card-image-background: #DBD199
+  $card-image-hover-background: lighten($card-image-background, 5%)
+  $card-margin: 1em
+
+  flex: 1 1 20em
+  transition: all 0.2s ease-in-out
+  background-color: $card-background
+  border-radius: $base-border-radius
+  border: $card-border
+  box-shadow: 0 2px 4px darken($base-background-color, 10%)
+  cursor: pointer
+  margin: 0 $card-margin $base-spacing $card-margin
+  position: relative
+
+  .card-image
+    img
+      transition: all 0.2s ease-in-out
+      background: $card-image-background
+      border-top-left-radius: $base-border-radius
+      border-top-right-radius: $base-border-radius
+      width: 100%
+
+  .card-header
+    transition: all 0.2s ease-in-out
+    background-color: $card-header-background
+    border-bottom: $card-border
+    border-radius: $base-border-radius $base-border-radius 0 0
+    font-weight: 700
+    line-height: 1.5em
+    padding: ($base-spacing / 3) ($base-spacing / 2)
+
+  .card-copy
+    font-size: 0.9em
+    line-height: 1.5em
+    padding: ($base-spacing / 2) ($base-spacing / 2)
+
+  &:focus,
+  &:hover
+    background-color: $card-hover-background
+
+    .card-image img
+      background: $card-image-hover-background
+
+    .card-header
+      background-color: $card-hover-background
+
+  &:active
+    background-color: $card-background
+
+    .card-header
+      background-color: $card-background

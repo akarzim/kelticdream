@@ -1,0 +1,28 @@
+---
+fr:
+  navigation:
+    menu: ≡
+    agenda: Agenda
+    contact: Contact
+    gallery: Galerie
+    show: Prestations
+    workshops: Ateliers
+  workshop:
+    animator: "Atelier animé par %{animator}"
+    level: "Atelier %{level}"
+    subway: "Métro — Station %{subway}"
+    bike: "V'lille — Station %{bike}"
+    bus: "Bus — Station %{bus}"
+  contact:
+    title: Gardons le contact !
+    description: Pour cela, envoyez-nous simplement un courriel en cliquant sur ce bouton.
+    button: Contactez-nous
+    address: |
+      Association Keltic Dream
+      108, rue Georges Lampin
+      59263 Houplin Ancoisne
+      France
+    phone: +33 (0)3 20 90 14 32
+  membership:
+    price: Adhésion : 32€/an
+    infos: Cette adhésion vous donne accès à l'ensemble des ateliers de KD1, KD2 et KD3

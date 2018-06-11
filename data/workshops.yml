@@ -1,0 +1,78 @@
+- section: KD1
+  workshops:
+    - title: Danses irlandaises
+      animator: Christine & Claire
+      slots:
+        - level: tous niveaux
+          date: 1er et 3ème vendredis du mois
+          time: 20h > 22h
+
+        - level: débutants
+          date: 2ème vendredi du mois
+          time: 20h > 22h
+
+        - level: confirmés
+          date: 4ème vendredi du mois
+          time: 20h > 22h
+
+    - title: Danses bretonnes
+      animator: Michel
+      slots:
+        - level: tous niveaux
+          date: tous les mardis
+          time: 20h15 > 22h15
+  notes:
+    title: Note
+    content: |
+      Nous sommes dans une salle en parquet. Prévoir des chaussures
+      adaptées et propres à mettre sur place
+  address:
+    place: Salle du Fort de Mons
+    street: 4, rue de Normandie à Mons-en-Barœul
+    subway: Fort de Mons (L2)
+    bike: Fort de Mons (125)
+    bus: Fort de Mons (57)
+
+- section: KD2
+  workshops:
+    - title: Danses de bal
+      animator: François & Simon
+      slots:
+        - level: tous niveaux
+          date: 1er et 3ème jeudi du mois
+          time: 19h30 > 22h
+
+    - title: Danses traditionnelles
+      animator: Estelle
+      slots:
+        - level: confirmés
+          date: 2ème et 4ème jeudi du mois
+          time: 19h30 > 22h
+      notes:
+        title: Modules 2017–2018
+        content: |
+          Danses de couple, Bourrées 3 temps, Flandres,
+          Gascogne & Béarn, Suède
+  address:
+    place: Salle du Tape Autour
+    street: 9, rue du Barœul à Mons-en-Barœul
+    subway: Mairie de Mons (L2)
+    bike: Mendes France (104)
+    bus: Trocadéro (COR1, COR2, 13)
+
+- section: KD3
+  workshops:
+    - title: Danses bretonnes
+      animator: Michel
+      slots:
+        - level: cercle
+          date: 2 samedis par mois
+          time: 14h > 17h
+      notes:
+        title: Chorégraphies & sorties en costume
+  address:
+    place: Salle Malraux
+    street: 108, rue du Général de Gaule à Mons-en-Barœul
+    subway: Mons Sarts (L2)
+    bike: Général de Gaulle (108)
+    bus: Mons-en-Barœul (13)

@@ -1,0 +1,35 @@
+section#workshop
+  - data.workshops.each do |ws|
+    section id=(ws.section.downcase)
+      h1= ws.section
+      div.content
+        - ws.workshops.each do |workshop|
+          div
+            div: strong= workshop.title
+            div= I18n.t 'workshop.animator', animator: workshop.animator
+
+            ul
+              - workshop.slots.each do |slot|
+                li
+                  = I18n.t 'workshop.level', level: slot.level
+                  =<> slot.date
+                  = slot.time
+
+            - if workshop.notes
+              div.notes
+                strong= workshop.notes.title
+                p= workshop.notes.content
+
+        - if ws.notes
+          div.notes
+            strong= ws.notes.title
+            p= ws.notes.content
+
+        div.address
+          div: strong= ws.address.place
+          p= ws.address.street
+
+          ul
+            li.subway= I18n.t 'workshop.subway', subway: ws.address.subway
+            li.bike= I18n.t 'workshop.bike', bike: ws.address.bike
+            li.bus= I18n.t 'workshop.bus', bus: ws.address.bus
