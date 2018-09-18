@@ -4,15 +4,15 @@
       animator: Christine & Claire
       slots:
         - level: tous niveaux
-          date: 1er et 3ème vendredis du mois
+          date: 1<sup>er</sup> et 3ᵉ vendredis du mois
           time: 20h > 22h
 
         - level: débutants
-          date: 2ème vendredi du mois
+          date: 2ᵉ vendredi du mois
           time: 20h > 22h
 
         - level: confirmés
-          date: 4ème vendredi du mois
+          date: 4ᵉ vendredi du mois
           time: 20h > 22h
 
     - title: Danses bretonnes
@@ -28,10 +28,12 @@
       adaptées et propres à mettre sur place
   address:
     place: Salle du Fort de Mons
-    street: 4, rue de Normandie à Mons-en-Barœul
-    subway: Fort de Mons (L2)
-    bike: Fort de Mons (125)
-    bus: Fort de Mons (57)
+    street: 4, rue de Normandie <br>59370 Mons-en-Barœul
+    glink: "https://goo.gl/maps/CBJiv3DVnaT2"
+    gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.0811091799233!2d3.1167644162704753!3d50.644184779502666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c329e6a285f1ff%3A0x1e1363dbe62493bb!2s4+Rue+de+Normandie%2C+59370+Mons-en-Bar%C5%93ul!5e0!3m2!1sfr!2sfr!4v1537227097665"
+    subway: Fort de Mons <small>(L2)</small>
+    bike: Fort de Mons <small>(125)</small>
+    bus: Fort de Mons <small>(57)</small>
 
 - section: KD2
   workshops:
@@ -39,14 +41,14 @@
       animator: François & Simon
       slots:
         - level: tous niveaux
-          date: 1er et 3ème jeudi du mois
+          date: 1<sup>er</sup> et 3ᵉ jeudi du mois
           time: 19h30 > 22h
 
     - title: Danses traditionnelles
       animator: Estelle
       slots:
         - level: confirmés
-          date: 2ème et 4ème jeudi du mois
+          date: 2ᵉ et 4ᵉ jeudi du mois
           time: 19h30 > 22h
       notes:
         title: Modules 2017–2018
@@ -55,10 +57,12 @@
           Gascogne & Béarn, Suède
   address:
     place: Salle du Tape Autour
-    street: 9, rue du Barœul à Mons-en-Barœul
-    subway: Mairie de Mons (L2)
-    bike: Mendes France (104)
-    bus: Trocadéro (COR1, COR2, 13)
+    street: 9, rue du Barœul <br>59370 Mons-en-Barœul
+    glink: "https://goo.gl/maps/uutBResDyqu"
+    gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1264.9516487054198!2d3.108911107375401!3d50.64748706854588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c329fa62ce4c31%3A0xee0053dbe894e965!2s9+Rue+du+Bar%C5%93ul%2C+59370+Mons-en-Bar%C5%93ul!5e0!3m2!1sfr!2sfr!4v1537226023277"
+    subway: Mairie de Mons <small>(L2)</small>
+    bike: Mendes France <small>(104)</small>
+    bus: Trocadéro <small>(COR1, COR2, 13)</small>
 
 - section: KD3
   workshops:
@@ -72,7 +76,9 @@
         title: Chorégraphies & sorties en costume
   address:
     place: Salle Malraux
-    street: 108, rue du Général de Gaule à Mons-en-Barœul
-    subway: Mons Sarts (L2)
-    bike: Général de Gaulle (108)
-    bus: Mons-en-Barœul (13)
+    street: 108, rue du Général de Gaulle <br>59370 Mons-en-Barœul
+    glink: "https://goo.gl/maps/rpiMNxyHD6o"
+    gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.0201845035863!2d3.099360515738447!3d50.6453162795027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c329f8927406af%3A0x363118003aa77f85!2s108+Rue+du+G%C3%A9n%C3%A9ral+de+Gaulle%2C+59370+Mons-en-Bar%C5%93ul!5e0!3m2!1sfr!2sfr!4v1537222547398"
+    subway: Mons Sarts <small>(L2)</small>
+    bike: Général de Gaulle <small>(108)</small>
+    bus: Mons-en-Barœul <small>(13)</small>

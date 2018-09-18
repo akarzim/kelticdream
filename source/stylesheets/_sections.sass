@@ -4,19 +4,29 @@ h1, h2
 section
   min-height: 200px
 
-  &#workshop
+  &.workshops
     display: flex
     flex-flow: row wrap
     justify-content: space-between
     margin-right: -1em
     margin-bottom: -1em
+    padding-top: 4em
 
     section
-      flex: 1 1 30em
+      flex: 1 1 24em
       position: relative
       margin-right: 1em
       margin-bottom: 1em
       border-radius: 5px
+
+      ul.slots li
+        margin-bottom: 0.6em
+
+      p
+        color: $dark-gray
+        line-height: 1.2em
+        margin-bottom: 1em
+        margin-block-start: 0
 
       h1
         position: absolute
@@ -28,20 +38,90 @@ section
         font-weight: 700
         color: $dark-gray
 
+      .address
+        position: relative
+        padding: 1em 1em 1em 6em
+        font-size: 1.2em
+
+        .fa-map-marked-alt
+          position: absolute
+          top: 1em
+          left: 2em
+          height: 3em
+          color: $dark-gray
+
+          &:hover
+            color: $light-gray
+
+        .street
+          font-size: 1.1rem
+
+      .glink
+        color: $dark-gray
+
+        &:hover
+          color: $light-gray
+
+      .gmap
+        margin-top: 1em
+        opacity: 0.5
+
+        &:hover
+          opacity: 1
+
+      ul.transport
+        padding-inline-start: 0.75em
+        padding: 0
+        padding-left: 2.5em
+        font-size: 1.2em
+
       .content
         min-height: 200px
-        padding: 1em
+        padding: 1em 2em
         margin-top: 5rem
-        background-color: transparentize($dark-gray, 0.8)
         font-size: 1.2em
-        color: $light-gray
 
-      &#kd1
-        background-color: $green
-      &#kd2
-        background-color: $orange
-      &#kd3
-        background-color: $light-gray
+        ul
+          padding-inline-start: 1.2em
 
-        .content
-          color: $dark-gray
+#kd1
+  background-color: hsl(129, 80, 32%)
+  background-image: url(../images/kd1.jpg)
+  background-repeat: no-repeat
+  background-position: top center
+  background-size: contain
+  background-blend-mode: multiply
+  padding-top: 14em
+
+  @media screen and (min-width: $medium-screen)
+    padding-top: 19em
+  @media screen and (min-width: $x-large-screen)
+    padding-top: 14em
+
+#kd2
+  background-color: hsl(39, 100, 42%)
+  background-image: url(../images/kd2.jpg)
+  background-repeat: repeat-x
+  background-position: bottom center
+  background-size: contain
+  background-blend-mode: luminosity
+  padding-bottom: 14em
+
+#kd3
+  background-color: hsl(0, 0, 66%)
+  background-image: url(../images/kejadenn-dansou-nb.png), linear-gradient(#A8A8A833, #A8A8A833, #A8A8A8), url(../images/escheresque.png)
+  background-repeat: no-repeat, no-repeat, repeat
+  background-position: bottom right, center center, center center
+  background-size: 24em, auto, auto
+  padding-bottom: 14em
+
+  @media screen and (min-width: $medium-screen)
+    padding-bottom: 0
+  @media screen and (min-width: $x-large-screen)
+    padding-bottom: 14em
+
+  .content
+    color: $dark-gray
+  //   min-width: 18em
+  //   flex-grow: 1
+

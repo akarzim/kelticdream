@@ -15,7 +15,7 @@ fr:
     bus: "Bus — Station %{bus}"
   contact:
     title: Gardons le contact !
-    description: Pour cela, envoyez-nous simplement un courriel en cliquant sur ce bouton.
+    description: Pour cela, envoyez-nous simplement un courriel en cliquant sur le bouton ci-contre.
     button: Contactez-nous
     address: |
       Association Keltic Dream
